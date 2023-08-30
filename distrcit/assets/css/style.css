@@ -23,3 +23,9 @@ height: 70%;
         flex-direction: column;
     }
 }
+a:hover{
+    text-decoration: none;
+}
+.card:hover{
+    background-color: lightpink !important;
+}
