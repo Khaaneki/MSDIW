@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="/FRONT/STATIQUE/css/style.css">
+    <title>Test</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid" style="background-color: lightblue;">
+        <!--Header Start-->
+        <header>
+            <!--Logo Start-->
+            <div class="row" style="background-color : #970747">
+                <div class="col-4">
+                    <img src="/FRONT/STATIQUE/bootstrap/assets/logo/logo_transparent.png" class="img-fluid"
+                        style="max-width: 150px;" alt="logo">
+                </div>
+                <!--Logo End-->
+                <!--Navbar Start-->
+                <div class="col-8 justify-content-end d-flex">
+                    <nav class="navbar navbar-expand-lg navbar-dark">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="index.html">Accueil</a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link active" href="Catégorie.html">Catégorie</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="Plat.html">Plat<span
+                                            class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="Contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div><!--Navbar End-->
+        </header><!--Header End-->
+        <!--Background & Research Start-->
+        <div class="row"
+            style="background-image: url('/FRONT/STATIQUE/bootstrap/assets/back/bg.jpg'); min-height:200px">
+            <div class="col-12" style="align-self: center">
+                <form class="form-inline justify-content-center">
+                    <input class="form-control" style="min-width: 400px;" type="search" placeholder="Rechercher">
+                    <button class="btn text-light btn-outline-success bg-success" type="submit">Rechercher</button>
+                </form>
+            </div>
+        </div><!--Background & Research End-->
+        <!--Separateur Start-->
+        <div class="row">
+            <div class="col-12 d-none d-md-flex bg-dark justify-content-center " style="align-self: center;">
+                <p class="h3 text-center text-light my-1">Nos Plats</p>
+            </div>
+        </div><!--Separateur End-->
+        <!--Carousel Start-->
+        <div id="carouselExample" class="carousel slide" data-interval="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                    <div class="col-12 d-md-flex  py-3 justify-content-center text-center"
+                        style="align-self: center;background-color: lightblue;">
+                        <p class="h1" style="background-color: lightblue;">Hamburger</p>
+                    </div>
+                </div>
+                <div class="cards-wrapper justify-content-center">
+                <div class="card bg-dark text-light" style="max-width: 20rem;">
+                  <img src="/FRONT/STATIQUE/bootstrap/assets/Plat/burger_Resized/Food-Name-6340.jpg" class="card-img-top" alt="burger">
+                  <div class="card-body">
+                    <p class="h3">Royal</p>
+                    <p class="card-text h4 py-3">steack haché, salade,
+                        bacon</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+                <div class="card d-none d-md-block bg-dark text-light" style="max-width: 20rem;">
+                  <img src="/FRONT/STATIQUE/bootstrap/assets/Plat/burger_Resized/Food-Name-6340.jpg" class="card-img-top" alt="burger">
+                  <div class="card-body">
+                    <p class="h3">Royal</p>
+                    <p class="card-text h4 py-3">steack haché, salade,
+                        bacon</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+                <div class="card d-none d-md-block bg-dark text-light" style="max-width: 20rem;">
+                    <img src="/FRONT/STATIQUE/bootstrap/assets/Plat/burger_Resized/Food-Name-6340.jpg" class="card-img-top" alt="burger">
+                    <div class="card-body">
+                      <p class="h3">Royal</p>
+                      <p class="card-text h4 py-3">steack haché, salade,
+                          bacon</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card d-none d-md-block bg-dark text-light" style="max-width: 20rem;">
+                    <img src="/FRONT/STATIQUE/bootstrap/assets/Plat/burger_Resized/Food-Name-6340.jpg" class="card-img-top" alt="burger">
+                    <div class="card-body">
+                      <p class="h3">Royal</p>
+                      <p class="card-text h4 py-3">steack haché, salade,
+                          bacon</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+              </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                    <div class="col-12 d-md-flex  py-3 justify-content-center text-center"
+                        style="align-self: center;background-color: lightblue;">
+                        <p class="h1" style="background-color: lightblue;">Pizza</p>
+                    </div>
+                </div>
+                <div class="cards-wrapper justify-content-center">
+                    <div class="card d-none d-md-block bg-dark text-light" style="max-width: 20rem;">
+                        <img src="/FRONT/STATIQUE/bootstrap/assets/Plat/burger_Resized/Food-Name-6340.jpg" class="card-img-top" alt="burger">
+                        <div class="card-body">
+                          <p class="h3">Royal</p>
+                          <p class="card-text h4 py-3">steack haché, salade,
+                              bacon</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                  <div class="card d-none d-md-block bg-dark text-light" style="max-width: 20rem;">
+                    <img src="/FRONT/STATIQUE/bootstrap/assets/Plat/burger_Resized/Food-Name-6340.jpg" class="card-img-top" alt="burger">
+                    <div class="card-body">
+                      <p class="h3">Royal</p>
+                      <p class="card-text h4 py-3">steack haché, salade,
+                          bacon</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card d-none d-md-block bg-dark text-light" style="max-width: 20rem;">
+                    <img src="/FRONT/STATIQUE/bootstrap/assets/Plat/burger_Resized/Food-Name-6340.jpg" class="card-img-top" alt="burger">
+                    <div class="card-body">
+                      <p class="h3">Royal</p>
+                      <p class="card-text h4 py-3">steack haché, salade,
+                          bacon</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card d-none d-md-block bg-dark text-light" style="max-width: 20rem;">
+                    <img src="/FRONT/STATIQUE/bootstrap/assets/Plat/burger_Resized/Food-Name-6340.jpg" class="card-img-top" alt="burger">
+                    <div class="card-body">
+                      <p class="h3">Royal</p>
+                      <p class="card-text h4 py-3">steack haché, salade,
+                          bacon</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Button Start-->
+        <div class="row d-flex py-5" style="background-color: lightblue;">
+            <div class="col-4 justify-content-center d-flex">
+                <button type="button" class="btn btn-secondary btn-lg" href="#carouselExample" role="button"
+                    data-slide="prev">Précédent</button>
+            </div>
+            <div class="col-4"></div>
+            <div class="col-4 d-flex justify-content-center">
+                <button type="button" class="btn btn-secondary btn-lg" href="#carouselExample" role="button"
+                    data-slide="next">Suivant</button>
+            </div>
+        </div><!--Button End-->
+          <!--Carousel End-->
+    <!--Footer Start-->
+    <footer>
+            <div class="row" style="background-color:rgba(100, 5, 52); height:40px">
+                <div class="col-12 align-self-center">
+                    <ul class="list-inline justify-content-center mb-0 d-flex">
+                        <li class="list-inline-item"><a href="https://twitter.com/?lang=fr">
+                                <img src="/FRONT/STATIQUE/bootstrap/assets/logo/twitter.png" width="30" height="30"
+                                    class="rounded" alt="twitter">
+                            </a>
+                        </li>
+                        <li class="list-inline-item"><a href="https://fr-fr.facebook.com/">
+                                <img src="/FRONT/STATIQUE/bootstrap/assets/logo/Facebook.jpg" width="30" height="30"
+                                    class="rounded" alt="facebook">
+                            </a>
+                        </li>
+                        <li class="list-inline-item"><a href="https://www.instagram.com/">
+                                <img src="/FRONT/STATIQUE/bootstrap/assets/logo/Instagram.png" width="30" height="30"
+                                    class="rounded" alt="instagram">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    </footer><!--Footer End-->
+    </div><!--Container End-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
