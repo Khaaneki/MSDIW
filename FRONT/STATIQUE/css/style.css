@@ -7,18 +7,25 @@
     display: flex;
 }
 .card:hover {
-    transform: scale(1.15);
+    transform: scale(0.98);
     background-color: rgb(100, 5, 52) !important;
 }
-
 a{
     text-decoration: none !important;
     color: currentColor;
 }
 ul li a:hover {
-    color: red !important;
+    color: grey !important;
+    transition:all 0.3s;
+    transform: scale(1.15);
+}
+.icon:hover{
+    margin: 0.2rem;
 }
 .h3 {
+    font-family: 'Oswald', sans-serif;
+}
+.h5 {
     font-family: 'Oswald', sans-serif;
 }
 .h1 {
@@ -29,5 +36,5 @@ ul li a:hover {
 
 }
 .btn:hover {
-    transform: scale(1.15);
+    transform: scale(0.98);
 }
