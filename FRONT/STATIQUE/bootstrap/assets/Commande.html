@@ -49,7 +49,7 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="Plat.html">Plat</a>
                                 </li>
-                                <li class="nav-item active">
+                                <li class="nav-item">
                                     <a class="nav-link" href="Contact.html">Contact</a>
                                 </li>
                             </ul>
@@ -88,7 +88,11 @@
                                 <p class="card-text text-light h6 d-lg-none d-lg-flex py-3">steack
                                     haché, fromage,
                                     barbecue</p>
-                                    
+                                    <div class="row justify-content-end">
+                                    <div class="form-outline" style="width: 6rem;">
+                                        <input min="1" max="10" type="number" id="typeNumber" class="form-control" />
+                                    </div>
+                                    </div>
                             </div>
                         </div>
                     </div>
@@ -100,9 +104,9 @@
                 <div class="row pt-4">
                     <div class="col-12">
                     <label for="nom">
-                        <p class="h5">Nom et Prénom</p>
+                        <p class="h5">Nom Prénom</p>
                     </label>
-                    <input class="form-control" type="text" name="nom_prenom" id="nom" placeholder="Nom et Prénom">
+                    <input class="form-control" type="text" name="nom_prenom" id="nom_prenom" placeholder="Nom Prénom">
                     <span class="error-message" id="nom_prenom-error"></span>
                 </div>
                 </div>
@@ -118,15 +122,15 @@
                     <label for="telephone">
                         <p class="h5">Téléphone</p>
                     </label>
-                    <input class="form-control" id="telephone" type="text" name="telephone" placeholder="06.xx.xx.xx.xx">
-                    <span class="error-message" id="telephone-error"></span>
+                    <input class="form-control" id="tel" type="text" name="tel" placeholder="06.xx.xx.xx.xx">
+                    <span class="error-message" id="tel-error"></span>
                 </div>
                 </div>
                 <div class="row d-flex pt-5">
                     <div class="col-12">
                     <legend><strong>Votre adresse</strong></legend>
-                    <textarea class="form-control" name="commentaire" id="question" rows="4" cols="10"></textarea>
-                    <span class="error-message" id="question-error"></span>
+                    <textarea class="form-control" name="adresse" id="adresse" rows="4" cols="10"></textarea>
+                    <span class="error-message" id="adresse-error"></span>
                 </div>
         </div>
         <div class="col-12 pt-4 py-4">
