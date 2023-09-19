@@ -6,6 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-    ahzaza DKIJFPZ invite test
+    <?php 
+    echo "Bonjour le monde"; 
+  ?> 
 </body>
 </html>
